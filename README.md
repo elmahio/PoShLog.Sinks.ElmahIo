@@ -1,8 +1,8 @@
 # PoShLog.Sinks.ElmahIo
 
-[![psgallery](https://img.shields.io/powershellgallery/v/poshlog.sinks.ElmahIo.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![PowerShell Gallery](htps://imgshields.io/powershellgallery/p/poshlog.sinks.ElmahIo?color=blue)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![psgallery](https://img.shields.io/powershllgallerydt/PoShLog.Sinks.ElmahIo.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![Discord](https://img.shields.io/discord/693754316305072199?color=orange&labe=discord)](https://discord.gg/gGFtbf)
+[![psgallery](https://img.shields.io/powershellgallery/v/poshlog.sinks.ElmahIo.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo)
 
-PoShLog.Sinks.ElmahIo is extension module for [PoShLog](https://github.com/PoShLog/PoShLog) logging module. Contains sink that publishes log messages to elmah.io.
+PoShLog.Sinks.ElmahIo is extension module for [PoShLog](https://github.com/PoShLog/PoShLog) logging module. Contains sink that publishes log messages to [elmah.io](https://elmah.io).
 
 ## Getting started
 
