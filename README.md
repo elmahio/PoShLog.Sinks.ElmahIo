@@ -1,8 +1,8 @@
 # PoShLog.Sinks.ElmahIo
 
-[![psgallery](https://img.shields.io/powershellgallery/v/poshlog.sinks.ElmahIo.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![PowerShell Gallery](htps://imgshields.io/powershellgallery/p/poshlog.sinks.ElmahIo?color=blue)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![psgallery](https://img.shields.io/powershllgallerydt/PoShLog.Sinks.ElmahIo.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![Discord](https://img.shields.io/discord/693754316305072199?color=orange&labe=discord)(https://discord.gg/gGFtbf)
+[![psgallery](https://img.shields.io/powershellgallery/v/poshlog.sinks.ElmahIo.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![PowerShell Gallery](htps://imgshields.io/powershellgallery/p/poshlog.sinks.ElmahIo?color=blue)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![psgallery](https://img.shields.io/powershllgallerydt/PoShLog.Sinks.ElmahIo.svg)](https://www.powershellgallery.com/packages/PoShLog.Sinks.ElmahIo) [![Discord](https://img.shields.io/discord/693754316305072199?color=orange&labe=discord)](https://discord.gg/gGFtbf)
 
-PoShLog.Sinks.ElmahIo is extension module for [PoShLog](https://github.com/PoShLog/PoShLog) logging module. Contains sink that publishes log messages to *ILL_HERE*
+PoShLog.Sinks.ElmahIo is extension module for [PoShLog](https://github.com/PoShLog/PoShLog) logging module. Contains sink that publishes log messages to elmah.io.
 
 ## Getting started
 
@@ -10,7 +10,7 @@ If you are familiar with PowerShell, skip to [Installation](#installation) secti
 
 ### Installation
 
-To install PoShLog.Sinks.ElmahIo, run following snippet from owershell
+To install PoShLog.Sinks.ElmahIo, run following snippet from PowerShell
 
 ```ps1
 Install-Module -Name PoShLog.Sinks.ElmahIo
@@ -22,7 +22,11 @@ Install-Module -Name PoShLog.Sinks.ElmahIo
 Import-Module PoShLog
 Import-Module PoShLog.Sinks.ElmahIo
 
-FILL_HERE
+New-Logger |
+    Add-SinkElmahIo -ApiKey 'API_KEY' -LogId 'LOG_ID' |
+    Start-Logger
+
+Write-ErrorLog 'Say My Name'
 
 # Don't forget to close the logger
 Close-Logger
@@ -38,7 +42,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Authors
 
-Thomas Ardal
+elmah.io
 
 ## License
 
