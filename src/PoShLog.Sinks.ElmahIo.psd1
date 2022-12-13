@@ -31,7 +31,7 @@ Copyright = '(c) 2019 elmah.io. All rights reserved.'
 
 # Description of the functionality provided by this module
 Description = 'PoShLog.Sinks.ElmahIo is extension module for PoShLog core library - https://www.powershellgallery.com/packages/PoShLog.
-It contains sink that publishes log messages to elmah.io
+It contains sink that publishes log messages to elmah.io - https://elmah.io
 
 For documentation check PoShLog wiki - https://github.com/PoShLog/PoShLog/wiki'
 
@@ -101,10 +101,10 @@ PrivateData = @{
         Tags = 'elmah-io','Log','Logging','Serilog','File','filelog','logfile','error-log','console','event','serilog-sink','serilog-for-powershell','wrapper','sinks','PSEdition_Desktop','PSEdition_Core','Windows','Linux','MacOS'
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        # LicenseUri = 'https://github.com/elmahio/PoShLog.Sinks.ElmahIo/blob/main/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        # ProjectUri = 'https://github.com/elmahio/PoShLog.Sinks.ElmahIo'
 
         # A URL to an icon representing this module.
         IconUri = 'https://raw.githubusercontent.com/PoShLog/PoShLog/master/images/icons/poshlog-icon-sink-256.png'
@@ -120,7 +120,7 @@ PrivateData = @{
  } # End of PrivateData hashtable
 
 # HelpInfo URI of this module
-# HelpInfoURI = ''
+# HelpInfoURI = 'https://docs.elmah.io/logging-to-elmah-io-from-powershell/'
 
 # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
 # DefaultCommandPrefix = ''
