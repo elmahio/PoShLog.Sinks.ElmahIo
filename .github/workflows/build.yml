@@ -17,6 +17,9 @@ jobs:
       - name: Install InvokeBuild
         shell: pwsh
         run: Install-Module InvokeBuild -Force
+      - name: Install PoShLog
+        shell: pwsh
+        run: Install-Module PoShLog -Force
       - name: Install PoShLog.Tools
         shell: pwsh
         run: Install-Module PoShLog.Tools -Force
